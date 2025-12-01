@@ -12,7 +12,7 @@ function SearchBar({ city, setCity, fetchWeather }) {
 />
 
       <button className="btn btn-primary ms-2 rounded" onClick={fetchWeather}>
-        Search
+        Search <i class="fa-light fa-magnifying-glass-location"></i>
       </button>
     </div>
   );
